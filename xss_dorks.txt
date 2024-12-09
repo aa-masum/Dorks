@@ -1,0 +1,50 @@
+#Common Dorks
+  
+site:domain.com inurl:page=
+site:domain.com inurl:search=
+site:domain.com inurl:query=
+site:domain.com inurl:lang=
+site:domain.com inurl:q=
+site:domain.com inurl:s=
+
+# Multiple Parameter Endpoint
+  
+site:*.domain.com inurl:& inurl:? inurl:=
+
+ # SERVLET
+  
+site:*.domain.com inurl:servlet
+site:*.domain.com inurl:servlet inurl:&
+site:*.domain.com inurl:servlet inurl:=
+site:*.domain.com inurl:servlet inurl:?
+site:*.domain.com inurl:servlet inurl:& inurl:= inurl:?
+
+# .XD & .AXD
+site:*.domain.com inurl:.xd inurl:&
+site:*.domain.com inurl:.axd inurl:&
+
+# .NSF
+  site:*.domain.com inurl:.nsf inurl:&
+
+
+.XHTM
+  site:*.domain.com inurl:.xhtm inurl:&
+
+.ACTION
+  site:*.domain.com inurl:.action inurl:&
+
+#  YEAR
+site:*.domain.com inurl:2024 inurl:&
+site:*.domain.com inurl:2023 inurl:&
+
+# .SVC
+site:*.domain.com inurl:.svc inurl:&
+
+
+site:domain.com inurl:page inurl:&
+site:domain.com inurl:sort inurl:&
+site:domain.com inurl:page inurl:?
+site:domain.com inurl:sort inurl:?
+site:domain.com inurl:page inurl:=
+site:domain.com inurl:sort inurl:=
+  

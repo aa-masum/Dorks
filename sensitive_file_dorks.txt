@@ -7,6 +7,23 @@ site:domain.com "STRICTLY CONFIDENTIAL"
 site:domain.com "SENSITIVE"
 site:domain.com "COMPANY SENSITIVE"
 site:domain.com "PRIVATE ASSET"
+site:domain.com ext:pdf
+site:domain.com ext:pdf "CONFIDENTIAL"
+site:domain.com ext:pdf "STRICTLY CONFIDENTIAL"
+site:domain.com ext:pdf "HIGHLY CONFIDENTIAL"
+site:domain.com ext:pdf "PRIVATE"
+site:domain.com ext:pdf "PRIVATE AND CONFIDENTIAL"
+site:domain.com ext:pdf "PRIVATE AND SENSITIVE"
+
+site:domain.com (ext:pdf OR ext:doc OR ext:docx OR ext:zip OR ext:bak OR ext:txt OR ext:ppt OR ext:pptx OR ext:xls OR ext:xlsx)
+
+site:domain.com "join.slack"
+site:domain.com "join.slack" ext:pdf
+site:domain.com "join.slack" ext:doc
+site:domain.com "join.slack" ext:docx
+
+odt,odf,csv,xls,xlsx,txt....
+
 
 #inurl keywords
 inurl:internal 

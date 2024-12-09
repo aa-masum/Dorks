@@ -1,0 +1,37 @@
+site:domain.com "INTERNAL USE ONLY"
+site:domain.com "PRIVATE AND CONFIDENTIAL"
+site:domain.com "ONLY FOR"
+site:domain.com "HIGHLY CONFIDENTIAL"
+site:domain.com "CONFIDENTIAL"
+site:domain.com "STRICTLY CONFIDENTIAL"
+site:domain.com "SENSITIVE"
+site:domain.com "COMPANY SENSITIVE"
+site:domain.com "PRIVATE ASSET"
+
+#inurl keywords
+inurl:internal 
+inurl:private 
+inurl:folder
+inurl:asset
+inurl:_data
+inurl:upload
+inurl:uploads
+inurl:userdata
+inurl:content
+
+#file extensions
+ext:pdf
+ext:doc
+ext:docx
+ext:txt
+ext:odt
+ext:odf
+ext:xls
+ext:xlsx
+ext:csv
+ext:ppt
+ext:pptx
+
+
+#negative filtering removing the unwanted ones
+-public -sample -doc -docs -documentation -template -draft -application -form -support -defaul
